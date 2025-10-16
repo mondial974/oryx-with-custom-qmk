@@ -7,7 +7,7 @@
 
 #define USB_SUSPEND_WAKEUP_DELAY 0
 #define CAPS_LOCK_STATUS
-#define SERIAL_NUMBER "Oze63/x9Le75"
+#define SERIAL_NUMBER "Oze63/pjDe5E"
 #define LAYER_STATE_16BIT
 #define COMBO_COUNT 2
 
