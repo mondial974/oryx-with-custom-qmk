@@ -281,4 +281,5 @@ const key_override_t delete_key_override =
 
 const key_override_t *key_overrides[] = {
 	&delete_key_override
+  NULL
 };
