@@ -275,13 +275,11 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
 
 // Custom QMK here
+// Custom QMK here
 const key_override_t delete_key_override = 
     ko_make_basic(MOD_MASK_SHIFT, KC_BSPC, KC_DEL);
 
-const key_override_t tab_key_override = 
-    ko_make_basic(MOD_MASK_SHIFT, KC_SPC, KC_TAB);
-
-const key_override_t *key_overrides [] = {
+const key_override_t **key_overrides = (const key_override_t *[]){
 	&delete_key_override,
-  &tab_key_override,
+	NULL
 };
