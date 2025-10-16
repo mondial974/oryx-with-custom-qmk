@@ -281,8 +281,7 @@ const key_override_t delete_key_override =
 const key_override_t tab_key_override = 
     ko_make_basic(MOD_MASK_SHIFT, KC_SPC, KC_TAB);
 
-const key_override_t **key_overrides = (const key_override_t *[]){
+const key_override_t *key_overrides [] = {
 	&delete_key_override,
-  &tab_key_override,
-	NULL
+  &tab_key_override
 };
