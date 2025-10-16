@@ -283,5 +283,5 @@ const key_override_t tab_key_override =
 
 const key_override_t *key_overrides [] = {
 	&delete_key_override,
-  &tab_key_override
+  &tab_key_override,
 };
